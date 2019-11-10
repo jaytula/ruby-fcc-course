@@ -1,7 +1,8 @@
-name = "Mike"
-occupation = "programmer"
-age = 75
-gpa = 3.2
-ismale = true
-istall = false
-flaws = nil
+phrase = "  Giraffe Academy  "
+puts phrase.upcase()
+puts phrase.strip()
+puts phrase.length()
+puts phrase.include? "Academys"
+puts phrase.strip()[0]
+puts phrase.strip()[0, 3]
+puts phrase.strip().index("A");
